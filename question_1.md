@@ -1,5 +1,5 @@
 ### Define the terms :Website, Webpage, Web browser, Web server, HTML, CSS
-
+<hr>
 
 - **Website** : Website is a collection of webpages that are accessed with a single domain name or URL.
 - **Webpage** : A Webpage is document on the web that is accessed in a web browser.
