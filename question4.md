@@ -1,3 +1,7 @@
+### Create a dropdown List
+<hr>
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +10,7 @@
     <title>Drop-Down List</title>
 </head>
 <body>
-    <h1 align = "center">Create a Drop-Down List</h1>
+    <h1>Create a Drop-Down List</h1>
     <hr>
     <label for="Course"><b>Choose a Course </b></label>
         <select name="Course" id="Course">
@@ -17,3 +21,4 @@
         </select>
 </body>
 </html>
+```
