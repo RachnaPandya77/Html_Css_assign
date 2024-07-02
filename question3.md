@@ -1,5 +1,4 @@
-### Display top 10 IT companies list in html webpage
-<hr>
+## Display top 10 IT companies list in html webpage
 
 ```
 <!DOCTYPE html>
@@ -26,4 +25,6 @@
   </ol>
 </body>
 </html>
-```
+````
+
+
