@@ -25,6 +25,10 @@
   </ol>
 </body>
 </html>
-````
+```
 
+## Output
+<hr>
+
+![Alt text](que3_op.png "a title")
 
