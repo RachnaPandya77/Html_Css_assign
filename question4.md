@@ -22,3 +22,8 @@
 </body>
 </html>
 ```
+## Output
+<hr>
+
+![Output image](image.png "a title")
+
