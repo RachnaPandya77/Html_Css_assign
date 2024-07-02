@@ -72,4 +72,6 @@
 ## Output
 <hr>
 
-![Output] (p.png)
+![Alt text](que5_op.png "a title")
+
+
