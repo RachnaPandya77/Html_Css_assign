@@ -72,4 +72,4 @@
 ## Output
 <hr>
 
-![Alt text](image.png "a title")
+![Output] (p.png)
