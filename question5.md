@@ -1,4 +1,4 @@
-# Create a Table Of college Management system using row span & colspan
+## Create a Table Of college Management system using row span & colspan
 <hr>
 
 
@@ -69,4 +69,7 @@
 </body>
 </html>
 ```
+## Output
+<hr>
+
 ![Alt text](image.png "a title")
