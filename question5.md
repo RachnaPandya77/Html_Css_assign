@@ -1,3 +1,8 @@
+#### Create a Table Of college Management system using row span & colspan
+<hr>
+
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,3 +68,6 @@
        
 </body>
 </html>
+
+![Alt text](image.png "a title")
+```
