@@ -1,4 +1,4 @@
-###### Create a Table Of college Management system using row span & colspan
+# Create a Table Of college Management system using row span & colspan
 <hr>
 
 
