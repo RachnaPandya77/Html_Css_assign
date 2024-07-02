@@ -25,5 +25,6 @@
 ## Output
 <hr>
 
-![Output image](image.png "a title")
+![Alt text](Que4_op.png "a title")
+
 
