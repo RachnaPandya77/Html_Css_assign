@@ -96,3 +96,8 @@
 </body>
 </html>
 ```
+<hr>
+
+### Output
+
+![Output-image](que6_op.png)
