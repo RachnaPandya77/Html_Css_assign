@@ -78,7 +78,7 @@
             <td>2 to 1</td>
         </tr>
         <tr>
-            <td colspan="4">1st12</td>
+            <td colspan="4" align="center">1st12</td>
             <td colspan="4">2nd12</td>
             <td colspan="4">3rd12</td>
         </tr>
