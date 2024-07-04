@@ -1,3 +1,4 @@
+```
 <h2 align="center"> Create A Table </h2>
 <hr>
 
@@ -56,3 +57,9 @@
     </table>
 </body>
 </html>
+```
+
+## Output
+<hr>
+
+![Out_Put](que6_2_op.png)
