@@ -1,5 +1,8 @@
-<h1 align="center">Create Registration form using HTML, CSS</h1>
+## Create Registration form using HTML, CSS
+
 <hr>
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,12 +40,17 @@
         <div class="signup-link">
             Have an account ? 
             <a href="#">Login</a>
-
         </div>
-      
-         
     </form>
     </div>
     </div>
 </body>
 </html>
+```
+
+<hr>
+
+### Output
+
+![Output-image](que7_op.png)
+
