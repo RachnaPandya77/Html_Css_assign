@@ -1,3 +1,4 @@
+```
 <h1>Create a dynamic pseudo class using HTML, CSS</h1>
 <hr>
 
@@ -97,3 +98,8 @@
 
     </body>
 </html>
+```
+
+### Output
+
+![Output-image](que12_op.png)
