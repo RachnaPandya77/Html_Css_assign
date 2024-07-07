@@ -1,55 +1,50 @@
 body{
-    background-image:url("bg1_coffee.jpg");
+    background-image:url("coffee-beans-dark-surface.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
     padding: 0px;
-}
-
-nav{
-    width: 100%;
-    height: 90px;
-    line-height: 80px;
-    padding: 0px 100px;
-    position: fixed;
-    background-image: linear-gradient(#523A28,#29190E);
-}
-
-nav .logo p{
-    font-size: 25px;
-    font-weight: bold;
-    float: left;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-nav ul{
-    float: right;
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
 }
-
-nav li{
-    display: inline-block;
-    list-style: none;
-}
-
-nav li a{
-    font-size: 18px;
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
     text-transform: uppercase;
-    padding: 5px 20px;
-    color: white;
+    color: aliceblue;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+nav ul li a{
+    line-height: 80px;
+    color: aliceblue;
+    padding: 12px 30px;
     text-decoration: none;
-}
-
-nav li a:hover{
-    color: #D0B49F;
-    transition: all 0.4s ease 0s;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 
 }
-
-nav div p{
-    padding: 0px;
+nav ul li a:hover{
+    background: #A0522D;
+    border-radius: 6px;
 }
 
