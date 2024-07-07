@@ -1,11 +1,4 @@
-body{
-    background-image:url("coffee-beans-dark-surface.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 nav{
     position: fixed;
     top: 0;
@@ -47,17 +40,21 @@ nav ul li a:hover{
     background: #A0522D;
     border-radius: 6px;
 }
-.main-text{
-        position: absolute;
-        top: 220px;
-        bottom: 0px;
-        right: 20px;
-        font-size: 50px;
-        background: rgba(0,0,0,0.6);
-        color: white;
-        padding-left: 50px;
-        padding-right: 50px;
-        margin-top: 50px;
-       
-}
-
+div.gallery {
+    margin: 90px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  

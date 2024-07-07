@@ -1,5 +1,5 @@
 body{
-    background-image:url("coffee-beans-dark-surface.jpg");
+    background-image:url("coffee_cup.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -47,17 +47,17 @@ nav ul li a:hover{
     background: #A0522D;
     border-radius: 6px;
 }
-.main-text{
-        position: absolute;
-        top: 220px;
-        bottom: 0px;
-        right: 20px;
-        font-size: 50px;
-        background: rgba(0,0,0,0.6);
-        color: white;
-        padding-left: 50px;
-        padding-right: 50px;
-        margin-top: 50px;
-       
-}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 125px;
+    margin-right: 50px;
+  }
+
 
