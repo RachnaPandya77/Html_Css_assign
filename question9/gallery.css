@@ -1,60 +1,97 @@
-
-nav{
+html {
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     padding: 10px 90px;
     box-sizing: border-box;
     background: rgba(0,0,0,0.6);
+} */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }
-nav .logo{
-    padding: 22px 20px;
-    height: 80px;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: aliceblue;
-}
-nav ul{
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
 
+nav .logo {
+  padding: 22px 20px;
+  height: 80px;
+  /* float: left; */
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: aliceblue;
 }
-nav ul li a{
-    line-height: 80px;
-    color: aliceblue;
-    padding: 12px 30px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-
+nav ul {
+  list-style: none;
+  /* float: right; */
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-nav ul li a:hover{
-    background: #A0522D;
-    border-radius: 6px;
+nav ul li a {
+  line-height: 80px;
+  color: aliceblue;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-div.gallery {
-    margin: 90px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  div.gallery:hover {
-    border: 2px solid #777;
-  }
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
+nav ul li a:hover {
+  background: #a0522d;
+  border-radius: 6px;
+}
+.image__container {
+  margin: 1rem 0;
+  display: flex;
+  /*gap space between two images */
+  gap: 1.5rem;
+  /* make all image horizontally center */
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.gallery {
+  border: 1px solid #ccc;
+  /* float: left; */
+  width: 20vw;
+  height: 20rem;
+  /* give shadow to image container */
+  box-shadow: 6px 6px 10px 2px grey;
+  /* set round border of image container */
+  border-radius: 8px;
+  overflow: hidden;
+}
+.gallery:hover {
+  border: 2px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+div.desc {
+  height: 30%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-wrap: wrap;
+}
