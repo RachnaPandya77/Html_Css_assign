@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+
+}
+header{
+  color: red;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  background: aqua;
+}
+.main_container{
+  width: 90vw;
+  margin: 1rem;
+}
+.form_container{
+  height: 110vh;
+  background-color: rgb(124, 178, 160);
+  margin: 2rem;
+  padding: 2rem 1rem;
+}
+.user{
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.user_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.personal_details {
+  width: 100%;
+  margin: 1rem 0;
+}
+.personal_detail_input {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+.account_details_input {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+.account_first > div {
+  margin: 2rem;
+}
+.account_second > div {
+  margin: 2rem;
+}
+.account_details {
+  margin: 2rem 0;
+}
+.declaration {
+  width: 100%;
+  margin: 1rem 0;
+}
+.declartion_text {
+  text-wrap: wrap;
+}
+.declartion_text > p {
+  margin: 1rem 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  
+}
+.buttons button {
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 0 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
